@@ -1,16 +1,16 @@
 puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
 print "> "
-rows = gets.chomp.to_i
+numbers = gets.chomp.to_i
 
-while rows > 25 || rows < 1
+while numbers > 25 || numbers < 1
     puts "Merci de choisir un nombre entre 1 et 25"
     print "> "
-    rows = gets.chomp.to_i
+    numbers = gets.chomp.to_i
 end
 
 print "Voici la pyramide :"
 
-for row in 0..rows
-	row.times {print "#"}
+for number in 0..numbers
+	number.times {print "#"}
 	puts
 end
