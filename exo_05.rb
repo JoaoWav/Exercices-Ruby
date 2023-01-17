@@ -1,5 +1,5 @@
-puts"Choisis un nombre :"
-print"> "
+puts "Choisis un nombre :"
+print "> "
 number = Integer(gets.chomp)
 i = 0
 
